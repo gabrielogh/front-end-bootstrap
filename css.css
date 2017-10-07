@@ -2,6 +2,30 @@ body {
   padding-bottom: 40px;
   background-color: #eee;
 }
+.container{
+	text-align: center;
+}
+#nav_bar{
+	border-radius:0px;
+}
+
+.table-striped{
+	text-align: left;
+}
+
+#challenges_home{
+	max-width: 40%;
+	margin: auto;
+}
+
+#challenges{
+	max-width: 40%;
+	margin: auto;
+}
+
+#pagination_home{
+	alignment-baseline: center;
+}
 
 .form-signin {
   max-width: 330px;
@@ -31,8 +55,13 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+.form-signin input[type="username"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 .form-signin input[type="password"] {
-  margin-bottom: 10px;
+  
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
