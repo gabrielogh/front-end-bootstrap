@@ -13,6 +13,14 @@ body {
 	text-align: left;
 }
 
+#container_login{
+	text-align:left;
+}
+
+#container_register{
+	text-align:left;
+}
+
 #challenges_home{
 	max-width: 40%;
 	margin: auto;
