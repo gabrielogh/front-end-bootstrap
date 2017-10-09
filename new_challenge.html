@@ -27,7 +27,7 @@
 		  </div>
 		</nav>
 
-		<div id="container_login" class="container">
+		<div id="container_createC" class="container">
 			<form class="form-inline">
 				<h2 class="form-signin-heading">New Challenge</h2>
 				<p>Name</p> 
@@ -38,41 +38,41 @@
 				</div>
 				<p>Language</p> 
 					<div class="dropdown">
-						<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Language
+						<button class="btn btn-default btn-lg dropdown-toggle" id="lang" type="button" data-toggle="dropdown">
+						Language <span class="caret"></span>
 						</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item" href="#">Java</a>
+						<li><a class="dropdown-item" href="#">Java</a></li>
 						</div>
 					</div>
 				<p>Difficulty</p> 
 				<div class="btn-group" role="group">
-					<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  Difficulty
+					<button class="btn btn-default btn-lg dropdown-toggle" id="diffic" type="button" data-toggle="dropdown">
+					  Difficulty <span class="caret"></span>
 					</button>
 					<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-					  <a class="dropdown-item" href="#">1 </a>
-					  <a class="dropdown-item" href="#">2 </a>
-					  <a class="dropdown-item" href="#">3 </a>
-					  <a class="dropdown-item" href="#">4 </a>
-					  <a class="dropdown-item" href="#">5 </a>
+					  <li><a class="dropdown-item" href="#">1 </a></li>
+					  <li><a class="dropdown-item" href="#">2 </a></li>
+					  <li><a class="dropdown-item" href="#">3 </a></li>
+					  <li><a class="dropdown-item" href="#">4 </a></li>
+					  <li><a class="dropdown-item" href="#">5 </a></li>
 					</div>
 				</div>
 				<p>Type</p>
 				<div class="btn-group" role="group">
-					<button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					  Type
+					<button class="btn btn-default btn-lg dropdown-toggle" id="type" type="button" data-toggle="dropdown">
+					  Type <span class="caret"></span>
 					</button>
 					<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-					  <a class="dropdown-item" href="#">Compilation Challenge </a>
-					  <a class="dropdown-item" href="#">Test Passing Challenge </a>
-					  <a class="dropdown-item" href="#">Verification Challenge </a>
+					  <li><a class="dropdown-item" href="#">Compilation Challenge </a></li>
+					  <li><a class="dropdown-item" href="#">Test Passing Challenge </a></li>
+					  <li><a class="dropdown-item" href="#">Verification Challenge </a></li>
 					</div>
 				</div>
 				<p> Description </p>
-					<textarea class= "form-control" rows=2 > </textarea>
+					<textarea id="description" class= "form-control" rows=2 > </textarea>
 				<p> Source code </p>
-					<textarea class= "form-control" rows=10 > </textarea>
+					<textarea id="code" class= "form-control" rows=10 > </textarea>
 				<p>
 				</p>	
 				<button class="btn btn-lg btn-primary btn-block" type="submit">Create Challenge</button>

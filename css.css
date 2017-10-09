@@ -17,6 +17,12 @@ body {
 	text-align:center;
 }
 
+#container_createC{
+	text-align:center;
+	max-width: 40%;
+	background-color: #fff;
+}
+
 #container_register{
 	text-align:center;
 }
@@ -24,6 +30,26 @@ body {
 #challenges_home{
 	max-width: 40%;
 	margin: auto;
+}
+
+#code{
+	width: 100%;
+}
+
+#lang{
+	width: 200px;
+}
+
+#type{
+	width: 200px;
+}
+
+#diffic{
+	width: 200px;
+}
+
+#description{
+	width: 100%;
 }
 
 #challenges{
@@ -52,9 +78,10 @@ body {
   margin: 0 auto;
 }
 .form-inline {
-  max-width: 330px;
+  max-width: 100%;
   padding: 50px;
   margin: auto;
+  text-align: left;
   
 }
 .form-signin .form-signin-heading,
