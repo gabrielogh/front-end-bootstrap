@@ -34,6 +34,7 @@ body {
 
 #code{
 	width: 100%;
+	resize: none;
 }
 
 #lang{
@@ -50,6 +51,7 @@ body {
 
 #description{
 	width: 100%;
+	resize: none;
 }
 
 #challenges{
