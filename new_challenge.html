@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Prueba Bootstrap DOSE</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css.css">
+	  <script src="js/w3.js"></script>
+	</head>
+
+	<body>	
+
+		<div w3-include-html="header.html"></div>
+		<script>
+			w3.includeHTML();
+		</script>
+
+		<div id="container_createC" class="container">
+			<form class="form-inline">
+				<h2 class="form-signin-heading">New Challenge</h2>
+				<p>Name</p> 
+
+				<div class="input-group">
+					<label for="inputNewChallenge" class="sr-only">Name of challenge</label>
+					<input type="name" id="nameChallenge"  class="form-control" placeholder="Name of challenge" required autofocus>
+				</div>
+				<p>Language</p> 
+					<div class="dropdown">
+						<button class="btn btn-default btn-lg dropdown-toggle" id="lang" type="button" data-toggle="dropdown">
+						Language <span class="caret"></span>
+						</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<li><a class="dropdown-item" href="#">Java</a></li>
+						</div>
+					</div>
+				<p>Difficulty</p> 
+				<div class="btn-group" role="group">
+					<button class="btn btn-default btn-lg dropdown-toggle" id="diffic" type="button" data-toggle="dropdown">
+					  Difficulty <span class="caret"></span>
+					</button>
+					<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					  <li><a class="dropdown-item" href="#">1 </a></li>
+					  <li><a class="dropdown-item" href="#">2 </a></li>
+					  <li><a class="dropdown-item" href="#">3 </a></li>
+					  <li><a class="dropdown-item" href="#">4 </a></li>
+					  <li><a class="dropdown-item" href="#">5 </a></li>
+					</div>
+				</div>
+				<p>Type</p>
+				<div class="btn-group" role="group">
+					<button class="btn btn-default btn-lg dropdown-toggle" id="type" type="button" data-toggle="dropdown">
+					  Type <span class="caret"></span>
+					</button>
+					<div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+					  <li><a class="dropdown-item" href="#">Compilation Challenge </a></li>
+					  <li><a class="dropdown-item" href="#">Test Passing Challenge </a></li>
+					  <li><a class="dropdown-item" href="#">Verification Challenge </a></li>
+					</div>
+				</div>
+				<p> Description </p>
+					<textarea id="description" class= "form-control" rows=4 > </textarea>
+				<p> Source code </p>
+					<textarea id="code" class= "form-control" rows=15 > </textarea>
+				<p>
+				</p>	
+				<button class="btn btn-lg btn-primary btn-block" type="submit">Create Challenge</button>
+			
+			</form>
+		</div> <!-- /container -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
